@@ -10,7 +10,7 @@ from base64 import urlsafe_b64encode, urlsafe_b64decode
 from os import urandom
 
 # Define a default key seed for key derivation
-key_seed = "your_constant_password"
+key_seed = "default_seed"
 
 def derive_key(seed, salt):
     # Derives a 32-byte key from the given seed and salt using PBKDF2.
